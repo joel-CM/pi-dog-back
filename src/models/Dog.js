@@ -29,7 +29,7 @@ module.exports = (sequelize) => {
       },
       image: {
         type: DataTypes.TEXT,
-        defaultValue: "http://localhost:3001/api/not_found",
+        defaultValue: "https://pi-dog-back.herokuapp.com/api/not_found",
       },
       createdInDb: {
         //para distinguir entre los que me trae la api y los creados en la base de datos
