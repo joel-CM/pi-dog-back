@@ -97,7 +97,7 @@ route.get("/:idBreed", async (req, res) => {
     try {
       let breedById = await Dog.findByPk(idBreed);
 
-      console.log("taza por UUIDDDDDDDDDDDDD" + typeof idRace + " - " + idRace);
+//       console.log("taza por UUIDDDDDDDDDDDDD" + typeof idRace + " - " + idRace);
       res.json(breedById);
     } catch (err) {
       console.log(err);
