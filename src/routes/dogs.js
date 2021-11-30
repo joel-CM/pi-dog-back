@@ -88,7 +88,7 @@ route.get("/:idBreed", async (req, res) => {
         image: breedById.image.url,
       };
 
-      console.log("Raza por IDDDDDDD " + typeof idRace + " - " + idRace);
+//       console.log("Raza por IDDDDDDD " + typeof idRace + " - " + idRace);
       res.json(showRace);
     } catch (err) {
       console.log(err);
